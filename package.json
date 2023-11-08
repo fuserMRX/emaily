@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18.12.1",
+    "npm": "9.6.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "fuser <vnovodid@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
