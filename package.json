@@ -8,11 +8,15 @@
     "npm": "10.1.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "fuser <vnovodid@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
